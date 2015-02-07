@@ -15,9 +15,6 @@
 		"oyejorge/less.php": "~1.5"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Maka\\Lessphp\\": "src/"
         }
