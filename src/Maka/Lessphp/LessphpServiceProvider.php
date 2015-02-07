@@ -27,7 +27,6 @@ class LessphpServiceProvider extends ServiceProvider {
 			return new Less($app['config'], $app['html']);
 		});
 		
-		$this->app->alias('less', 'Maka\Lessphp\Less');
 	}
 
 	/**
@@ -37,7 +36,7 @@ class LessphpServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('less');
+		return array();
 	}
 
 }
