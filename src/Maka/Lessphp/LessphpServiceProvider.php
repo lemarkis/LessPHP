@@ -4,12 +4,6 @@ use Illuminate\Support\ServiceProvider;
 
 class LessphpServiceProvider extends ServiceProvider {
 
-	/**
-	 * Indicates if loading of the provider is deferred.
-	 *
-	 * @var bool
-	 */
-	protected $defer = false;
 
 	/**
 	 * Bootstrap the application events.
@@ -30,7 +24,7 @@ class LessphpServiceProvider extends ServiceProvider {
 	{
 		$this->app['less'] = $this->app->share(function($app)
 		{
-			return new Less();
+			return new Less($app['config'], $app['html']);
 		});
 		
 		$this->app->alias('less', 'Maka\Lessphp\Less');
@@ -43,7 +37,7 @@ class LessphpServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('less');
 	}
 
 }
