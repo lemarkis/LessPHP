@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class LessphpFacade extends Facade {
+class LessFacade extends Facade {
 
 	/**
 	 * Get the registered name of the component.

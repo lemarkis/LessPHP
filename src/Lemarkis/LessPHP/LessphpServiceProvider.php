@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class LessphpServiceProvider extends ServiceProvider {
+class LessServiceProvider extends ServiceProvider {
 
 
 	/**

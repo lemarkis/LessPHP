@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Lemarkis\\Lessphp\\": "src/"
+            "Lemarkis\\LessPHP\\": "src/"
         }
     },
     "minimum-stability": "stable"
