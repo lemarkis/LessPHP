@@ -2,7 +2,7 @@
 
 use Less_Cache;
 use Illuminate\Config\Repository as Config;
-use Illuminate\Html\HtmlBuilder as Html;
+use Collective\Html\HtmlBuilder as Html;
 
 class Less {
 	var $config;
