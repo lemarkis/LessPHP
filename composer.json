@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Maka\\Lessphp\\": "src/"
+            "Lemarkis\\Lessphp\\": "src/"
         }
     },
     "minimum-stability": "stable"
