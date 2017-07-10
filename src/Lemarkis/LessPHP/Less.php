@@ -29,11 +29,11 @@ class Less {
 
 		$this->filename = $filename;
 
-		$this->source_path = base_path() . $this->DS . $this->config->get('lessphp::source_folder');
-		$this->cache_path = base_path() . $this->DS . $this->config->get('lessphp::cache_folder');
-		$this->target_path = base_path() . $this->DS . $this->config->get('lessphp::target_folder');
-		$this->css_path =  $this->config->get('lessphp::link_folder');
-		$this->public_path = url() . '/' . $this->config->get('lessphp::link_root');
+		$this->source_path = base_path() . $this->DS . $this->config->get('LessPHP.source_folder');
+		$this->cache_path = base_path() . $this->DS . $this->config->get('LessPHP.cache_folder');
+		$this->target_path = base_path() . $this->DS . $this->config->get('LessPHP.target_folder');
+		$this->css_path =  $this->config->get('LessPHP.link_folder');
+		$this->public_path = url() . '/' . $this->config->get('LessPHP.link_root');
 
 		$this->compiler();
 		$this->humanizer();
