@@ -17,7 +17,7 @@ class LessServiceProvider extends ServiceProvider {
 			return new Less($app['config'], $app['html']);
 		});
 		$this->publishes([
-			__DIR__.'/config/config.php' => config_path('LessPHP.php'),
+			__DIR__.'../../config/config.php' => config_path('LessPHP.php'),
 		]);
 	}
 
