@@ -39,23 +39,23 @@ return array(
 	'target_folder' => 'public/css',
 
     /*
-     |--------------------------------------------------------------------------
-     | Link folder
-     |--------------------------------------------------------------------------
-     |
-     | When we generate a link to the css file, where should it point?
-     | default: /css
-     */
+    |--------------------------------------------------------------------------
+    | Link folder
+    |--------------------------------------------------------------------------
+    |
+    | When we generate a link to the css file, where should it point?
+    | default: /css
+    */
     'link_folder' => '/css',
 	
     /*
-     |--------------------------------------------------------------------------
-     | link root
-     |--------------------------------------------------------------------------
-     |
-     | When we generate a link to the public root, where should it point?
-     | default: 
-     */
+    |--------------------------------------------------------------------------
+    | link root
+    |--------------------------------------------------------------------------
+    |
+    | When we generate a link to the public root, where should it point?
+    | default: 
+    */
     'link_root' => '/',
 
 

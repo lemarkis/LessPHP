@@ -1,4 +1,4 @@
-<?php namespace Lemarkis\Lessphp;
+<?php namespace Lemarkis\LessPHP;
 
 use Illuminate\Support\Facades\Facade;
 

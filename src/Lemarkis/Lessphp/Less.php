@@ -1,4 +1,4 @@
-<?php namespace Lemarkis\Lessphp;
+<?php namespace Lemarkis\LessPHP;
 
 use Less_Cache;
 use Illuminate\Config\Repository as Config;
