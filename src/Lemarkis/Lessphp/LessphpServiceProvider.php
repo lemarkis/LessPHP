@@ -12,7 +12,10 @@ class LessphpServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('maka/lessphp');
+		$this->app['less'] = $this->app->share(function($app)
+		{
+			return new Less($app['config'], $app['html']);
+		});
 	}
 
 	/**
@@ -22,11 +25,6 @@ class LessphpServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['less'] = $this->app->share(function($app)
-		{
-			return new Less($app['config'], $app['html']);
-		});
-		
 	}
 
 	/**
@@ -36,7 +34,7 @@ class LessphpServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return array('less');
 	}
 
 }

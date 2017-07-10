@@ -1,18 +1,17 @@
 {
-    "name": "maka/lessphp",
+    "name": "Lemarkis/LessPHP",
     "description": "Laravel lessphp package",
-	"keywords": ["laravel","lessphp"],
+	"keywords": ["laravel","lessphp", "less", "php"],
     "authors": [
         {
-            "name": "maka",
-            "email": "54.maka@gmail.com"
+            "name": "Lemarkis",
+            "email": "jean.lemarquis@epitech.eu"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*",
-        "illuminate/html": "4.*",
-		"oyejorge/less.php": "~1.5"
+        "illuminate/support": "~5.0",
+        "laravelcollective/html": "~5.0",
+		"oyejorge/less.php": "~1.7.0.9"
     },
     "autoload": {
         "psr-0": {
