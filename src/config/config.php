@@ -38,6 +38,16 @@ return array(
 	*/
 	'target_folder' => 'public/css',
 
+	/*
+	|--------------------------------------------------------------------------
+	| Cache folder
+	|--------------------------------------------------------------------------
+	|
+	| Where should we save cache files?
+	| default: storage/less_cache
+	*/
+	'cache_folder' => 'storage/less_cache',
+
     /*
     |--------------------------------------------------------------------------
     | Link folder
