@@ -33,7 +33,7 @@ class Less {
 		$this->cache_path = base_path() . $this->DS . $this->config->get('LessPHP.cache_folder');
 		$this->target_path = base_path() . $this->DS . $this->config->get('LessPHP.target_folder');
 		$this->css_path =  $this->config->get('LessPHP.link_folder');
-		$this->public_path = url() . '/' . $this->config->get('LessPHP.link_root');
+		$this->public_path = url('/' . $this->config->get('LessPHP.link_root'));
 
 		$this->compiler();
 		$this->humanizer();
